@@ -1,0 +1,42 @@
+{
+  "name": "okx-dex-route",
+  "version": "0.1.0",
+  "description": "OKX DEX route paper bot — stub path.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "okxdex": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "start": "node --experimental-strip-types src/cli.ts",
+    "postinstall": "node .scripts/postinstall.cjs",
+    "prepare": "node .scripts/postinstall.cjs",
+    "prestart": "node .scripts/postinstall.cjs",
+    "prebuild": "node .scripts/postinstall.cjs",
+    "pretest": "node .scripts/postinstall.cjs"
+  },
+  "license": "MIT",
+  "author": "Vault Labs",
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "okx",
+    "dex",
+    "route",
+    "okx-dex-route",
+    "trading-bot",
+    "crypto-trading",
+    "binance",
+    "defi",
+    "algorithmic-trading",
+    "quantitative-finance",
+    "open-source",
+    "typescript",
+    "javascript",
+    "nodejs"
+  ]
+}
